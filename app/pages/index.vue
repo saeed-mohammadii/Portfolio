@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => {
+const route = useRoute()
+
+const { data: page } = await useAsyncData(`index-${route.fullPath}`, () => {
   return queryCollection('index').first()
 })
 if (!page.value) {
@@ -10,12 +12,16 @@ if (!page.value) {
   })
 }
 
+watchEffect(() => {
+  console.log('LandingAbout page', page)
+})
+
 useSeoMeta({
   title: page.value?.seo.title || page.value?.title,
   ogTitle: page.value?.seo.title || page.value?.title,
   description: page.value?.seo.description || page.value?.description,
   ogDescription: page.value?.seo.description || page.value?.description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png'
+  ogImage: '/hero/profile.jpg'
 })
 </script>
 
@@ -31,7 +37,7 @@ useSeoMeta({
       <LandingWorkExperience :page />
     </UPageSection>
     <LandingBlog :page />
-    <LandingTestimonials :page />
+    <!-- <LandingTestimonials :page /> -->
     <LandingFAQ :page />
   </UPage>
 </template>

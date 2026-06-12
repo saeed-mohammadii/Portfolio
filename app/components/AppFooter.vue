@@ -7,9 +7,9 @@ const { footer } = useAppConfig()
     class="z-10 bg-default"
     :ui="{ left: 'text-muted text-xs' }"
   >
-    <template #left>
+    <!-- <template #left>
       {{ footer.credits }}
-    </template>
+    </template> -->
 
     <template #right>
       <template v-if="footer?.links">

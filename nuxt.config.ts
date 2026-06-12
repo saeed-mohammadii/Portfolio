@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/ui',
     '@nuxt/content',
+    '@nuxtjs/mdc',
     '@vueuse/nuxt',
     'nuxt-og-image',
     'motion-v/nuxt'
@@ -19,6 +20,12 @@ export default defineNuxtConfig({
   content: {
     experimental: {
       sqliteConnector: 'native'
+    }
+  },
+
+  routeRules: {
+    '/***': {
+      cache: false
     }
   },
 

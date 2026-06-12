@@ -105,7 +105,7 @@ defineProps<{
           v-if="page.hero.links"
           class="flex items-center gap-2"
         >
-          <UButton v-bind="page.hero.links[0]" />
+          <!-- <UButton v-bind="page.hero.links[0]" /> -->
           <UButton
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
@@ -179,9 +179,9 @@ defineProps<{
         }"
       >
         <NuxtImg
-          width="234"
-          height="234"
-          class="rounded-lg aspect-square object-cover"
+          width="375"
+          height="175"
+          class="rounded-lg  object-cover"
           :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
           v-bind="img"
         />

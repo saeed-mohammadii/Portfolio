@@ -1,61 +1,60 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Saeed Mohammadi - Front-end Developer"
+  description: "Welcome to my portfolio! I'm Saeed Mohammadi, a front-end developer internationally based. I develop modern web applications that combine intuitive user interfaces with robust, efficient frontend engineering practices."
+title: "Hey, I'm Saeed Mohammadi Front-end Developer"
+description: "I develop modern web applications that combine intuitive user interfaces with robust, efficient frontend engineering practices. Based internationally, I bring ideas to life through code and creativity."
 hero:
   links:
     - label: "Use this template"
       to: https://github.com/nuxt-ui-templates/portfolio
       color: "neutral"
   images:
-    - src: /hero/random-1.avif
-      alt: Random Image 1
-    - src: /hero/random-2.avif
-      alt: Random Image 2
-    - src: /hero/random-3.avif
-      alt: Random Image 3
-    - src: /hero/random-4.avif
-      alt: Random Image 4
-    - src: /hero/random-5.avif
-      alt: Random Image 5
-    - src: /hero/random-6.avif
-      alt: Random Image 6
-    - src: /hero/random-7.avif
-      alt: Random Image 7
-    - src: /hero/random-8.avif
-      alt: Random Image 8
-    - src: /hero/random-9.avif
-      alt: Random Image 9
+    - src: /hero/tech-panel.png
+      alt: Tech Panel
+    # - src: /hero/next-landing.png
+    #   alt: Next Landing
+    - src: /hero/manage-panel.png
+      alt: Manage Panel
+    # - src: /hero/nuxt-landing.png
+    #   alt: Nuxt Landing
+    # - src: /hero/random-5.avif
+    #   alt: Random Image 5
+    # - src: /hero/random-6.avif
+    #   alt: Random Image 6
+    # - src: /hero/random-7.avif
+    #   alt: Random Image 7
+    # - src: /hero/random-8.avif
+    #   alt: Random Image 8
+    # - src: /hero/random-9.avif
+    #   alt: Random Image 9
 about:
   title: "About Me"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    Frontend developer with 1 year of experience, passionate about creating intuitive, performant, and scalable web experiences. I combine strong engineering fundamentals with thoughtful UI implementation to turn ideas into polished digital products.
 experience:
   title: Work Experience
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Front-end developer at"
+      date: "2025 - Present"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
-      company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
-      company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+        name: M1evo
+        logo: "/hero/tech.svg"
+        url: "https://tech.m1evo.com/"
+        color: "#3AF7F6"
+    # - position: "Assets Designer at"
+    #   date: "2022 - 2023"
+    #   company:
+    #     name: Raycast
+    #     logo: "i-simple-icons-raycast"
+    #     url: "https://raycast.com"
+    #     color: "#FF6363"
+    # - position: "Senior UX/UI Designer at"
+    #   date: "2020 - 2021"
+    #   company:
+    #     name: Linear
+    #     logo: "i-simple-icons-linear"
+    #     url: "https://linear.app"
+    #     color: "#5E6AD2"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
@@ -89,32 +88,35 @@ faq:
       questions:
         - label: What services do you offer?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            I build modern web applications using Vue.js, Nuxt.js, TypeScript, and modern frontend tools. Whether you need a project built from scratch, a design implemented from Figma, or an existing application improved, I focus on creating fast, responsive, and maintainable solutions.
+        - label: What technologies do you work with?
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+           I primarily work with Vue.js, Nuxt.js, TypeScript, JavaScript, HTML, CSS, Tailwind CSS, Git, and modern frontend development tools.
+        - label: Can you work with existing projects?
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
-      questions:
-        - label: How much does a project typically cost?
-          content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
-          content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
-          content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
-          content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
+            Yes. I can join existing projects, implement new features, improve performance, fix bugs, refactor code, and help maintain scalable frontend applications.
+        # - label: Do you work with startups?
+        #   content: |
+        #     Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
+    # - title: Pricing & Timelines
+    #   questions:
+    #     - label: How much does a project typically cost?
+    #       content: |
+    #         Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
+    #     - label: What are your payment terms?
+    #       content: |
+    #         I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
+    #     - label: How long does a typical project take?
+    #       content: |
+    #         Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
+    #     - label: Do you offer retainers or ongoing support?
+    #       content: |
+    #         Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
     - title: About Me
       questions:
-        - label: What do you enjoy most about your work?
+        - label: What is your approach to learning new technologies?
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
-          content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            I enjoy diving deep into how things work under the hood rather than just learning APIs. Understanding the fundamentals helps me solve problems more effectively and adapt quickly to new tools, frameworks, and development practices.
+        # - label: What are your hobbies outside of work?
+        #   content: |
+        #     When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.

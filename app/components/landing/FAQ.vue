@@ -51,11 +51,12 @@ const ui = {
           }"
         >
           <template #body="{ item: _item }">
-            <MDC
+            <!-- <MDC
               :value="_item.content"
               unwrap="p"
               class="px-4"
-            />
+            /> -->
+            {{ _item.content }}
           </template>
         </UAccordion>
       </template>

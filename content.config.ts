@@ -34,6 +34,11 @@ const createTestimonialSchema = () => z.object({
   author: createAuthorSchema()
 })
 
+const createSkillSchema = () => z.object({
+  name: z.string(),
+  icon: z.string()
+})
+
 export default defineContentConfig({
   collections: {
     index: defineCollection({
@@ -123,8 +128,10 @@ export default defineContentConfig({
       type: 'page',
       source: 'about.yml',
       schema: z.object({
-        content: z.object({}),
-        images: z.array(createImageSchema())
+        content: z.string().nonempty(),
+        images: z.array(createImageSchema()),
+        skills: z.array(createSkillSchema()),
+        tools: z.array(createSkillSchema()) // ← add this
       })
     })
   }

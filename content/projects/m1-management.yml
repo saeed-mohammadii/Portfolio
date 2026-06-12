@@ -1,0 +1,6 @@
+title: M1evo - Personal Contact Dashboard
+description: Built a management dashboard from scratch that enables administrators to monitor and manage customer inquiries submitted through multiple M1 platform websites. Developed responsive interfaces, reusable components, and data management workflows, providing a centralized solution for reviewing and handling contact requests efficiently.
+image: /project/management.jpg
+url: "https://m1evo.com/"
+tags: ["Frontend", "Dashboard", "Admin Panel", "Vue.js", "Nuxt.js", "Data Visualization"]
+date: "2025"

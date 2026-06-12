@@ -43,7 +43,11 @@ defineProps<{
               :style="{ color: experience.company.color }"
             >
               <span class="font-medium">{{ experience.company.name }}</span>
-              <UIcon :name="experience.company.logo" />
+              <!-- <UIcon :name="experience.company.logo" /> -->
+              <NuxtImg
+                :src="experience.company.logo"
+                width="30px"
+              />
             </div>
           </ULink>
         </Motion>

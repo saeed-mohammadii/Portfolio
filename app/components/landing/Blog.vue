@@ -5,7 +5,9 @@ defineProps<{
   page: IndexCollectionItem
 }>()
 
-const { data: posts } = await useAsyncData('index-blogs', () =>
+const route = useRoute()
+
+const { data: posts } = await useAsyncData(`index-blogs-${route.fullPath}`, () =>
   queryCollection('blog').order('date', 'DESC').limit(3).all()
 )
 if (!posts.value) {

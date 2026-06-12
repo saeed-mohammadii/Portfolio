@@ -1,0 +1,6 @@
+title: M1evo - Team Portfolio Dashboard
+description: Built a team portfolio and content management platform from scratch, enabling members to create professional profiles and publish articles to a public website. Developed the complete frontend experience, with a focus on intuitive content editing, flexible profile customization, and scalable content management workflows.
+image: /project/tech.jpg
+url: "https://tech.m1evo.com/"
+tags: ["Frontend", "Dashboard", "Admin Panel", "Vue.js", "Nuxt.js", "Data Visualization", "Portfolio"]
+date: "2025"
