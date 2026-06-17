@@ -1,10 +1,8 @@
 # Nuxt Portfolio Template
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
-
 Use this template to create your own portfolio with [Nuxt UI](https://ui.nuxt.com).
 
-- [Live demo](https://portfolio-template.nuxt.dev/)
+- [Live demo](https://portfolio-lilac-tau-eofk4o3wcm.vercel.app/)
 - [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
 
 <a href="https://portfolio-template.nuxt.dev/" target="_blank">
