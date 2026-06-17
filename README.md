@@ -1,60 +1,86 @@
-# Nuxt Portfolio Template
+# Personal Portfolio
 
-Use this template to create your own portfolio with [Nuxt UI](https://ui.nuxt.com).
+A modern and responsive portfolio website showcasing my projects, skills, and experience as a Frontend Developer.
 
-- [Live demo](https://portfolio-lilac-tau-eofk4o3wcm.vercel.app/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+## About
 
-<a href="https://portfolio-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-    <img alt="Nuxt Portfolio Template" src="https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png">
-  </picture>
-</a>
+This portfolio highlights my work, technical skills, and the technologies I use to build modern web applications. It serves as a central place where recruiters, clients, and fellow developers can learn more about me and explore my projects.
 
-## Quick Start
+## Features
 
-```bash [Terminal]
-npm create nuxt@latest -- -t ui/portfolio
-```
+* Responsive design for desktop, tablet, and mobile devices
+* Modern and clean user interface
+* Project showcase section
+* Skills and technology stack overview
+* Experience and background information
+* Contact section
+* Fast performance and SEO-friendly architecture
 
-## Deploy your own
+## Tech Stack
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=portfolio&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fportfolio&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fportfolio-dark.png&demo-url=https%3A%2F%2Fportfolio-template.nuxt.dev%2F&demo-title=Nuxt%20Portfolio%20Template&demo-description=A%20sleek%20portfolio%20template%20to%20showcase%20your%20work%2C%20skills%20and%20blog%20powered%20by%20Nuxt%20Content.)
+* Nuxt
+* Vue.js
+* TypeScript
+* JavaScript
+* Tailwind CSS
+* Nuxt UI
 
-## Setup
+## Getting Started
 
-Make sure to install the dependencies:
+### Install dependencies
 
 ```bash
 pnpm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+### Start development server
 
 ```bash
 pnpm dev
 ```
 
-## Production
-
-Build the application for production:
+### Build for production
 
 ```bash
 pnpm build
 ```
 
-Locally preview production build:
+### Preview production build
 
 ```bash
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Project Structure
 
-## Renovate integration
+```text
+├── assets/
+├── components/
+├── composables/
+├── layouts/
+├── pages/
+├── public/
+├── server/
+├── app.vue
+└── nuxt.config.ts
+```
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+## Deployment
+
+The project can be deployed on platforms such as:
+
+* Vercel
+* Netlify
+* Cloudflare Pages
+
+## Contact
+
+Feel free to connect with me:
+
+* LinkedIn
+* GitHub
+* Email
+
+## License
+
+This project is open source and available under the MIT License.
