@@ -25,12 +25,7 @@ export default defineAppConfig({
   footer: {
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
     colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://go.nuxt.com/discord',
-      'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
-    }, {
+    links: [ {
       'icon': 'i-simple-icons-telegram',
       'to': 'https://t.me/Limbo_saeed',
       'target': '_blank',
