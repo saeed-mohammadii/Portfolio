@@ -1,0 +1,6 @@
+title: Herkoul – Personal Bodybuilding Trainer Platform
+description: Built a fitness platform that generates personalized exercise and meal plans based on each user's body type and physical details. Developed the complete frontend experience using Nuxt and Vue, with a focus on intuitive plan ordering, responsive design, and a seamless user journey from body assessment to personalized recommendations.
+image: /project/gym.jpg
+url: "https://herkoul.com/"
+tags: ["Frontend", "Landing", "User Panel", "Dashboard", "Admin Panel", "Vue.js", "Nuxt.js", "Data Visualization"]
+date: "2025"
